@@ -159,9 +159,6 @@ def get_dashboard_styles():
             width: 100%;
         }}
 
-
-
-
         .target-label {{
             color: var(--text-muted);
             text-transform: uppercase;
@@ -170,9 +167,6 @@ def get_dashboard_styles():
             font-weight: 600;
             font-family: '{FONT_NAME}', sans-serif;
         }}
-
-
-
 
         .target-value {{
             font-family: '{FONT_NAME}', sans-serif;

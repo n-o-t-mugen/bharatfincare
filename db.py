@@ -84,8 +84,3 @@ def upsert_fake_records(n=5):
     response = supabase.table("creditinfo").upsert(records).execute()
     return response.data
 
-
-# --- Run upsert ----
-print("Upserting fake records...")
-print(upsert_fake_records(5))
-
