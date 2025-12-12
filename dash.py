@@ -30,7 +30,8 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Logo at top center
-logo_path = "/Users/mruthunjai_govindaraju/Documents/Workspace/BharatFincare/assests/image.png"
+BASE_DIR = os.path.dirname(__file__)
+logo_path = os.path.join(BASE_DIR, "assets", "image.png")
 if os.path.exists(logo_path):
     try:
         col1, col2, col3 = st.columns([1.1, 1, 1])
